@@ -10,6 +10,23 @@ public class HelloWorld {
 		System.out.println("성별 : 남");
 		System.out.println("주소 : 경기도 김포시 통진읍");
 		
+		// 변수 선언 : 데이터타입 변수명;
+		// 변수 초기화 : 데이터타입 변수명 = 리터널;
+		
+		
+		boolean a = true;
+		boolean b = false;
+		
+		int c = 1;
+		int d;
+		d = 3;
+		
+		int e,f,g;
+		e = 10;
+		
+		System.out.println("d: " + d);
+		System.out.println("e: " + e);
+		
 	}
 
 }
