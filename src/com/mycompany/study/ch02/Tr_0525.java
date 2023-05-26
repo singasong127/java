@@ -5,6 +5,7 @@ public class Tr_0525 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		// ExBoolean.java
 		boolean bool1 = true;
 		boolean bool2 = false;
 		
@@ -14,15 +15,18 @@ public class Tr_0525 {
 			System.out.println("bool2: " + bool2);
 		}
 		
+		// ExByte.java
 		byte byte01 = -128;
 		byte byte02 = 127;
 		// byte byte03 = -129; 	// error
 		// byte byte04 = 128;	// error
-		
+		// byte : -128 ~ 127
 		
 		System.out.println("byte01 : " + byte01);
 		System.out.println("byte02 : " + byte02);
 		
+		
+		// ExChar.java
 		char c1 = 'A';
 		char c2 = 65;
 		char c3 = '\u0041';
@@ -38,6 +42,7 @@ public class Tr_0525 {
 		System.out.println("c5: " + c5);
 		
 		
+		// ExFloatDouble.java
 		float f1 = 3;
 		double f2 = 3;
 		
@@ -49,6 +54,8 @@ public class Tr_0525 {
 		System.out.println("f3 : " + f3);
 		System.out.println("f4 : " + f4);
 		
+		
+		// ExInt.java
 		int var1 = 10;	// 10진수
 		int var2 = 012;	// 8진수
 		int var3 = 0xa;	// 16진수
@@ -57,11 +64,17 @@ public class Tr_0525 {
 		System.out.println("var2: " + var2);
 		System.out.println("var3: " + var3);
 		
+		// ExLong.java
 		long l1 = 1234567;
 		long l2 = 2034560654503L;
 		
 		System.out.println("l1: " + l1);
 		System.out.println("l2: " + l2);
+		
+		
+		// ExPromotion.java
+		
+		// byte < short < int < long < float < double
 		
 		short promotion1 = byte02;
 		System.out.println("promotion1: " + promotion1);
