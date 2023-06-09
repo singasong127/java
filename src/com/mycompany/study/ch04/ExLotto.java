@@ -15,17 +15,15 @@ public class ExLotto {
 		
 		int min = 1;
 		int max = 45;
-		int[] arrLotto = new int[6];
 		
 		System.out.println("----- 로또 번호 생성기 -----");
 		
 		for(int i=0; i<=5; i++) {
-			for(int n=1; n<=4; n++) {
-				if(arrLotto[i] == arrLotto[n]) {
-					
-				}
+			String[] lotto = new String[6];
+			for(int j=0; j<lotto.length; j++) {
+				String number;
+				
 			}
-			arrLotto[i] = (int) ((Math.random() * (max - min)) + min);
 		}
 		
 			
