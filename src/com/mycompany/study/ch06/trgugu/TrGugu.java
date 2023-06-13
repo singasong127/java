@@ -3,31 +3,16 @@ package com.mycompany.study.ch06.trgugu;
 
 public class TrGugu {
 	
-	public static int num;
-	public static int i;
-	public static int result;
+	boolean z = true;
 	
-	
-	public static int gugudan() {
+	public void gugudan(int num) {
+		System.out.println("입력하신 정수는: " + num);
 		
-//		for(i=1; i<=9; i++) {
-//			result = num * i;
-//			System.out.println(num + " * " + i + " = " + result);
-//		} 
+		for(int i=1; i<=9; i++) {
+			System.out.println(num + " * " + i + " = " + num * i);
+		}
 		
-		do {
-			if(num != 0) {
-				for(i=1; i<=9; i++) {
-					result = num * i;
-					System.out.println(num + " * " + i + " = " + result);
-				}
-			} else {
-				break;
-			}
-		} while (num == 0);
-		System.out.println("프로그램 종료");
-		
-		return result;
+		System.out.println("==================");
 	}
 	
 }
